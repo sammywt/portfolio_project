@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam's Dev Portfolio</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2c5cac825.js" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="style.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
 </head>
 <body>
+
     <header> 
         <!-- reset/home icon -->
+        <!-- <i class="fa-solid fa-house-chimney"></i> -->
+        <!-- <i class="fas fa-user-astronaut" id="astro"></i> -->
         <nav>
             <!-- hamburger menu -->
+            <!-- <i class="fas fa-bars" id="hamburger"> -->
                 <li>About</li>
                 <li>Skills</li>
                 <li>Projects</li>
                 <li>Contact</li>
+            </i>
+                <!-- <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li> -->
         </nav>
-        <div class="visuals">
-            <img src="" alt="interactive animation">
-            <img src="" alt="image of sam">
+        <div class="starter-visuals">
+            <img src="../portfolio_project_images/network-5656534__340.webp" alt="interactive animation" id="hopeful-animation">
+            <img src="../portfolio_project_images/smiley-face.png" alt="image of sam" id="sammy">
         </div>
         <div class="brand-statement">
             <p>BLAH BLAH BLAH HIRE ME</p>
@@ -34,18 +48,22 @@
     <main>
         <section class="about-me">
             <h1>ABOUT</h1>
-            <p>BLAH BLAH BLAH MORE REASONS WHY YOU SHOULD HIRE ME. IN FACT THERE ARE SO MANY REASONS THAT THIS STATEMENT IS COMPRISED OF MULTIPLE SENTENCES. IMAGINE THAT. LOOK AT US GO, LIKE 5ISH SENTENCES ON HOW GREAT I WOULD BE IF YOU HIRED ME. DID IT WORK? AM I HIRED?</p>
+            <p>BLAH BLAH BLAH MORE REASONS WHY YOU SHOULD HIRE ME. IN FACT THERE ARE SO MANY REASONS THAT THIS STATEMENT IS COMPRISED OF MULTIPLE SENTENCES. IMAGINE THAT. LOOK AT US GO, LIKE 4 OR 5 MAYBE 6 SENTENCES (I didn't count) ON HOW GREAT I WOULD BE IF YOU HIRED ME. DID IT WORK? AM I HIRED?</p>
         </section>
 
         <section class="skills">
             <h1>SKILLS</h1>
             <div id="javaScript">
-                <img src="" alt="javaScript logo">
+                <img src="../portfolio_project_images/JS logo.png" alt="javaScript logo" class="logo-icons">
                 <p>javaScript: These are the many wonderful ways i have used javaScript</p>
             </div>
             <div id="jquery">
-                <img src="" alt="jquery logo">
+                <img src="../portfolio_project_images/jquery-8-1175153.webp" alt="jquery logo" class="logo-icons">
                 <p>jquery: These are all the fantastic things I can do with jquery</p>
+            </div>
+            <div id="css">
+                <img src="../portfolio_project_images/css-131-722685.webp" alt="css logo" class="logo-icons">
+                <p>CSS: These are all the fantastic things I can do with CSS</p>
             </div>
         </section>
 
@@ -61,7 +79,7 @@
             </div>
 
             <div class="project-2">
-                
+
                 <img src="" alt="project 2 main page">
                 <h3>Project 2</h3>
                 <p class="project-summary">Here is a short statement about the project</p>
@@ -72,14 +90,11 @@
         </section>
 
         <section class="contact-me">
-            <h5>Name:</h5>
-            <input type="text" name="name" id="contact-name">
-            <h5>Email:</h5>
-            <input type="email" id="cotact-email">
-            <h5>Subject</h5>
-            <input type="text" name="subject" id="contact-subject">
+            <input type="text" name="name" id="contact-name" placeholder="name:">
+            <input type="email" id="contact-email" placeholder="email:">
+            <textarea name="subject" placeholder="subject:"></textarea>
             <input type="submit" value="reach out" id="contact-submit">
-        </div>
+        </section>
     </main>
 
     <footer>
