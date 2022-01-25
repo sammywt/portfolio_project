@@ -32,10 +32,10 @@
         <nav>
             <!-- hamburger menu -->
             <!-- <i class="fas fa-bars" id="hamburger"> -->
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li id="aboutButton">About</li>
+                <li id="skillsButton">Skills</li>
+                <li id="projectsButton">Projects</li>
+                <li id="contactButton">Contact</li>
             </i>
                 <!-- <li>About</li>
                 <li>Skills</li>
@@ -56,50 +56,52 @@
         
         <section class="about-me">
             <h1>ABOUT</h1>
-            <p>BLAH BLAH BLAH MORE REASONS WHY YOU SHOULD HIRE ME. IN FACT THERE ARE SO MANY REASONS THAT THIS STATEMENT IS COMPRISED OF MULTIPLE SENTENCES. IMAGINE THAT. LOOK AT US GO, LIKE 4 OR 5 MAYBE 6 SENTENCES (I didn't count) ON HOW GREAT I WOULD BE IF YOU HIRED ME. DID IT WORK? AM I HIRED?</p>
+            <p>BLAH BLAH BLAH MORE REASONS WHY YOU SHOULD HIRE ME. IN FACT THERE ARE SO MANY REASONS THAT THIS STATEMENT IS COMPRISED OF MULTIPLE SENTENCES. IMAGINE THAT. LOOK AT US GO, LIKE 4 OR 5 MAYBE 6 SENTENCES (I didn't count) ON HOW GREAT I WOULD BE IF YOU HIRED ME.</p>
         </section>
 
         <section class="skills">
             <h1>SKILLS</h1>
             <div id="javaScript">
                 <img src="../portfolio_project_images/JS logo.png" alt="javaScript logo" class="logo-icons">
-                <p>These are the many wonderful ways i have used javaScript</p>
+                <p class="skills-statement">These are the many wonderful ways i have used javaScript</p>
             </div>
 
             <div id="jquery">
                 <img src="../portfolio_project_images/jquery-8-1175153.webp" alt="jquery logo" class="logo-icons">
-                <p>These are all the fantastic things I can do with jquery</p>
+                <p class="skills-statement">These are all the fantastic things I can do with jquery</p>
             </div>
 
             <div id="css">
                 <img src="../portfolio_project_images/css-131-722685.webp" alt="css logo" class="logo-icons">
-                <p>These are all the amazing things I can do with CSS</p>
+                <p class="skills-statement">These are all the amazing things I can do with CSS</p>
             </div>
         </section>
 
         <section class="projects">
-            <h1>PROJECTS</h1>
-            <div class="project-1">
-                <img src="" alt="project 1 main page">
+            <h1 class="projects">PROJECTS</h1>
+            <div class="project-section">
                 <h3>Project 1</h3>
+                <img src="../portfolio_project_images/smiley-face.png" alt="project 1 main page" class="proj-img">
+                
                 <p class="project-summary">Here is a short statement about the project</p>
                 <p class="project-explanation">Here is a longer, more in-depth explanation of this project</p>
-                <img src="" alt="more project images">
-                <img src="" alt="more project images">
+                <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
             </div>
 
-            <div class="project-2">
-
-                <img src="" alt="project 2 main page">
+            <div class="project-section">
                 <h3>Project 2</h3>
+                <img src="../portfolio_project_images/smiley-face.png" alt="project 2 main page" class="proj-img">
+                
                 <p class="project-summary">Here is a short statement about the project</p>
                 <p class="project-explanation">Here is a longer, more in-depth explanation of this project</p>
-                <img src="" alt="more project images">
-                <img src="" alt="more project images">
+                <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
             </div>
         </section>
 
         <section class="contact-me">
+            <h1>CONTACT</h1>
             <input type="text" name="name" id="contact-name" placeholder="name:">
             <input type="email" id="contact-email" placeholder="email:">
             <textarea name="subject" placeholder="subject:"></textarea>
@@ -109,13 +111,13 @@
 
     <footer>
         <h4>Thanks for visiting!</h4>
-        <nav>
+        <!-- <nav>
             <li>about</li>
             <li>skills</li>
             <li>projects</li>
             <li>contact</li>
-        </nav>
-        <h6>Copyright 2022</h6>
+        </nav> -->
+        <h6>Created in 2022</h6>
     </footer>
 
     <script src="app.js"></script>

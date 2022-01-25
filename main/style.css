@@ -5,12 +5,12 @@ li {
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: .7fr 8fr .1fr;
     height: fit-content;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #C1C8E4;
-    color: rgb(71, 71, 71);
+    background-color: #e7e8ec;
+    color: rgb(37, 37, 37);
     font-family: 'Oswald', sans-serif;
     line-height: 2;
 }
@@ -24,8 +24,8 @@ header {
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    max-height: 25%;
+    grid-template-rows: 1fr 2fr 1fr;
+    /* margin-bottom: 10px; */
 }
 nav {
     grid-row: 1 / 2;
@@ -52,6 +52,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: fixed;
+    top: 0; */
+    /* width: 100%; */
 }
 
 #hopeful-animation {
@@ -66,7 +69,9 @@ nav {
     width: 10%;
     position: absolute;
     z-index: 2;
-    
+    border: solid white;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 .brand-statement {
@@ -83,37 +88,52 @@ main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-left: 20%;
-    margin-right: 20%;
+    grid-template-rows: .6fr .5fr 2fr .3fr;
+    /* margin-top: 10px; */
 }
+
 h1 {
     font-size: large;
     padding: 10px;
     text-decoration: underline;
     font-weight: bold;
+    align-self: center;
 }
 
 .about-me {
     grid-row: 1 / 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #96a6df;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 50px;
 }
 
 .skills {
     grid-row: 2 / 3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
+    background-color: #96a6df;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .logo-icons {
     height: 30px;
-    text-align: center;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.skills-statement {
+    padding: 15px;
 }
 
 .projects {
@@ -122,6 +142,24 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #96a6df;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.proj-img {
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-section {
+    background-color: #acb6da;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
 }
 
 .contact-me {
@@ -130,6 +168,10 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #96a6df;
+    /* padding: 30px; */
+    margin-top: 30px;
+    border-radius: 50px;
 }
 input, textarea {
     margin: 5px;
