@@ -35,6 +35,11 @@ nav {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color:rgb(37, 37, 37);
+}
+
 /* li {
     flex-grow: 4;
 } */
@@ -88,7 +93,7 @@ main {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .6fr .5fr 2fr .3fr;
+    grid-template-rows: .5fr .6fr 2fr .3fr;
     /* margin-top: 10px; */
 }
 
@@ -187,3 +192,32 @@ footer {
     flex-direction: column;
 }
 
+input, textarea {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    
+    body {
+        font-size: large;
+        grid-template-rows: .5fr 3fr .3fr;
+    }
+    
+    main {
+        grid-template-rows: .1fr .1fr .2fr .1fr;
+    }
+
+    #sammy {
+        width: 15%;
+    }
+
+    #about-me {
+        padding: 30px;
+    }
+
+    .project-section {
+        padding: 60px;
+    }
+
+}
