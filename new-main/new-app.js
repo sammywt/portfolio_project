@@ -10,8 +10,6 @@ $(() => {
         $('nav').toggleClass('nav-vis');
     }
 
-
-
     $('#click-about').on('click', revealAbout);
 
     function revealAbout() {
@@ -40,6 +38,12 @@ $(() => {
 
     function revealProjTwo() {
         $('.proj2-content').toggle();
+    }
+
+    $('#click-contact').on('click', revealContactField)
+
+    function revealContactField() {
+        $('.contact-content').toggle();
     }
 
 
