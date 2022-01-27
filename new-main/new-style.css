@@ -202,9 +202,22 @@ footer {
     line-height: 3vh;
     flex-direction: column;
     margin: 4vh;
+    font-size: small;
     color: rgba(0, 0, 0, 0.5);
 }
 
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh;
+}
+
+footer a {
+    margin: 2vh;
+    color:rgba(0, 0, 0, 0.5)
+}
 
 /* TABLET RESPONSIVE */
 @media only screen and (min-width: 768px) {

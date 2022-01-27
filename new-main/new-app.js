@@ -47,4 +47,29 @@ $(() => {
     }
 
 
+    $('.about-button').click(function() {
+        $('html, body').animate({
+          scrollTop: $("#about-area").offset().top
+        }, 2000) 
+    })
+
+    $('.skills-button').click(function() {
+        $('html, body').animate({
+          scrollTop: $("#skills-area").offset().top
+        }, 2000) 
+    })
+
+    $('.projects-button').click(function() {
+        $('html, body').animate({
+          scrollTop: $("#project-area").offset().top
+        }, 2000) 
+    })
+
+    $('.contact-button').click(function() {
+        $('html, body').animate({
+          scrollTop: $("#contact-area").offset().top
+        }, 2000) 
+    })
+
+
 });
