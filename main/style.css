@@ -43,10 +43,10 @@ a {
 /* li {
     flex-grow: 4;
 } */
-/* #astro {
+/* #hamburger {
     grid-row: 1 / 2;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 } */
 

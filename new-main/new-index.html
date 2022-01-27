@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2c5cac825.js" crossorigin="anonymous"></script>
+
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="new-style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header>
+        
+        <nav>
+            <a href="#" id="about-button">About</a>
+            <a href="#" id="skills-button">Skills</a>
+            <a href="#" id="projects-button">Projects</a>
+            <a href="#" id="contact-button">Contact</a>
+        </nav>
+        <i class="fas fa-bars" id="hamburger"></i>
+
+        <div class="starter-visuals">
+            <img src="../portfolio_project_images/network-5656534__340.webp" alt="interactive animation" id="background-img">
+            <img src="../portfolio_project_images/smiley-face.png" id="sam-img">
+        </div>
+
+        <div class="brand-statement">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="about-me" id="about-area">
+            <h1 id="click-about">ABOUT</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </section>
+
+        <section class="skills" id="skills-area">
+            <h1 id="click-skills">SKILLS</h1>
+            <div>
+                <img src="../portfolio_project_images/JS logo.png" alt="javaScript logo" class="logo-icons">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+
+            <div>
+                <img src="../portfolio_project_images/jquery-8-1175153.webp" alt="jquery logo" class="logo-icons">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+
+            <div>
+                <img src="../portfolio_project_images/css-131-722685.webp" alt="css logo" class="logo-icons">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+        </section>
+
+        <section class="projects" id="project-area">
+            <h1 id="click-projects">PROJECTS</h1>
+            <div class="project-section">
+                <h3 id="click-proj1">Project 1</h3>
+                <img src="../portfolio_project_images/smiley-face.png" alt="project 1 main page" class="proj-img">
+
+                <div class="proj1-content">
+                    <p class="project-summary">Lorem ipsum dolor sit amet.</p>
+                    <p class="project-explanation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis facilisis mi, molestie pretium dolor.</p>
+                    <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                    <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h3 id="click-proj2">Project 2</h3>
+                <img src="../portfolio_project_images/smiley-face.png" alt="project 2 main page" class="proj-img">
+                <div class="proj2-content">
+                    <p class="project-summary">Lorem ipsum dolor sit amet.</p>
+                    <p class="project-explanation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis facilisis mi, molestie pretium dolor.</p>
+                    <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                    <img src="../portfolio_project_images/smiley-face.png" alt="more project images" class="proj-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-me" id="contact-area">
+            <h1>CONTACT</h1>
+            <input type="text" name="name" id="contact-name" placeholder="name:">
+            <input type="email" id="contact-email" placeholder="email:">
+            <textarea name="subject" placeholder="subject:"></textarea>
+            <input type="submit" value="reach out" id="contact-submit">
+        </section>
+
+
+    </main>
+
+
+    <script src="new-app.js"></script>
+</body>
+</html>
