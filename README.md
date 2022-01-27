@@ -79,3 +79,8 @@ At very bottom, include a tiny bar with copyright, a "thanks for stopping by" me
 [3]: portfolio-project-sketches/IMG_2005.jpeg
 
 [4]: portfolio-project-sketches/IMG_2007.jpeg
+
+
+CITATION FOR SCROLLING FUNCTION-
+
+https://codepen.io/vishalamipara/pen/rNWwONp

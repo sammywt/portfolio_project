@@ -73,3 +73,5 @@ $(() => {
 
 
 });
+
+//SCROLL FUNCTION CITATION FOUND IN README 
