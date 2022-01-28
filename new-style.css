@@ -26,6 +26,7 @@ header {
     font-size: 4vh;
     border: solid black;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 nav {
@@ -119,6 +120,7 @@ main {
 h1 {
     margin: 2vh;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 
@@ -174,6 +176,7 @@ h1 {
 
 h3 {
     margin: 2vh;
+    cursor: pointer;
 }
 
 .proj1-content {
