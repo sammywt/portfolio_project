@@ -39,6 +39,12 @@ $(() => {
     function revealProjTwo() {
         $('.proj2-content').toggle();
     }
+    
+    $('#click-proj3').on('click', revealProjThree);
+
+    function revealProjThree() {
+        $('.proj3-content').toggle();
+    }
 
     $('#click-contact').on('click', revealContactField)
 

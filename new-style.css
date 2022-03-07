@@ -93,8 +93,8 @@ a {
 }
 
 main {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .about-me p {
@@ -114,7 +114,7 @@ main {
 }
 
 .about-me p {
-    line-height: 4vh;
+    line-height: 3vh;
 }
 
 h1 {
@@ -124,11 +124,10 @@ h1 {
 }
 
 
-.skills {
+#skills-area {
     display: flex;
-    justify-content: center;
-    align-items: space-between;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     background-color: rgb(147, 181, 246);
     border-radius: 50px;
@@ -143,8 +142,16 @@ h1 {
     margin: 3vh;
 }
 
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+}
 .skills div {
     display: none;
+    margin: 10px
 }
 
 .projects {
@@ -160,14 +167,15 @@ h1 {
 }
 
 .proj-img {
-    height: 200px;
+    height: 175px;
     text-align: center;
+    border-radius: 30px;
     margin: 10px;
 }
 
 .project-section {
     background-color: #d6def8;
-    margin: 20px;
+    margin: 10px;
     border-radius: 50px;
     text-align: center;
     padding: 5vh;
@@ -184,6 +192,9 @@ h3 {
 }
 
 .proj2-content {
+    display: none;
+}
+.proj3-content {
     display: none;
 }
 
@@ -213,12 +224,15 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
 }
 
 textarea {
     margin: 2vh;
     font-family: 'Oswald', sans-serif;
     padding: 1vh;
+    border-radius: 10px;
 }
 
 .contact-content {
@@ -259,7 +273,7 @@ footer a {
 
     body {
         font-size: 3vh;
-        margin: 10vh;
+        margin: 5vh;
     }
 
 
@@ -283,6 +297,10 @@ footer a {
     #sam-img {
         width: 25%;
         border-radius: 100px;
+    }
+
+    .proj-img {
+        height: 350px;
     }
 
     h4, h6 {
